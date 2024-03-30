@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background: #002ead;
+    color: white;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > ul > li{
+    padding: 0 15px;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+.Header-Button{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #dcccdc;
+    border-radius: 5px;
+    padding: 3px 3px;
+    background-color: gray;
+
+}
+
+nav {
+    padding: 15px;
+    background-color: rgb(183, 212, 240);
+}
+

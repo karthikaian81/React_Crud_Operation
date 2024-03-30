@@ -1,0 +1,14 @@
+.lstTagcnt_cls{
+    display: grid;
+    grid-template-columns: 25px repeat(2,1fr);
+    width: 80%;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    overflow: auto;
+}
+
+.lstTagcnt_cls > div {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    text-align: center;
+}
